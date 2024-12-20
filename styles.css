@@ -7,7 +7,13 @@ h1 {
     text-align: center;
     color: rgb(85, 72, 72);
     font-size: 50px;
-    font-weight: bold
+    font-weight: bold;
+}
+
+.box {
+    border: 5px solid black;
+    padding: 30px;
+    margin: 50px;
 }
 
 ul.index {
