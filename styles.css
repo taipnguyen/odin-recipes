@@ -3,11 +3,16 @@
     background-color: beige;
 }
 
-h1 {
+.heading {
     text-align: center;
     color: rgb(85, 72, 72);
     font-size: 50px;
     font-weight: bold;
+    border: 10px solid bisque;
+    background-color: bisque;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px auto;
 }
 
 .box {
@@ -16,8 +21,15 @@ h1 {
     margin: 50px;
 }
 
+.tableOfContents {         /* Space around the content */
+    border: 20px solid bisque; 
+    margin: 20px 20px;       
+    border-radius: 25px; 
+    height: 300px;
+    background-color: bisque;    
+}
+  
 ul.index {
-    color: rgb(26, 28, 131);
     font-size: 30px;
 }
 
