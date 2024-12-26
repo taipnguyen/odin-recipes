@@ -16,22 +16,45 @@
 }
 
 .box {
-    border: 5px solid black;
+    background-color: bisque;
+    border: 10px solid bisque;
+    border-radius: 25px;
     padding: 30px;
     margin: 50px;
 }
+
+.box h2 {
+    background-color: bisque;
+    color: rgb(85, 72, 72);
+    text-align: center;
+}
+
+.box p,
+.box a,
+.box u,
+.box ul,
+.box ol,
+.box li
+{
+    background-color: bisque;
+}
+
 
 .tableOfContents {         /* Space around the content */
     border: 20px solid bisque; 
     margin: 20px 20px;       
     border-radius: 25px; 
-    height: 300px;
     background-color: bisque;    
 }
   
-ul.index {
+ul.index,
+ul.index a,
+ul.index li 
+{
     font-size: 30px;
+    background-color: bisque;
 }
+
 
 img {
     text-align: center;
@@ -41,9 +64,3 @@ img {
     width: 300px;
     height: auto;
 }
-
-h2 {
-    text-align: center;
-    color: rgb(5, 92, 5)
-}
-
